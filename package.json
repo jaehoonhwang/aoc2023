@@ -4,15 +4,20 @@
   "description": "Advent of code; adventofcode.com",
   "main": "index.js",
   "scripts": {
-    "build": "npx tsc",
+    "build": "npm run lint && npx tsc",
     "start": "node build/index.js",
-    "dev": "npx ts-node-dev  --respawn --transpile-only src/index.ts"
+    "lint": "npx eslint .",
+    "dev": "npx ts-node-dev --respawn -r tsconfig-paths/register src/index.ts"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^20.10.0",
+    "@typescript-eslint/eslint-plugin": "^6.12.0",
+    "@typescript-eslint/parser": "^6.12.0",
+    "eslint": "^8.54.0",
     "ts-node": "^10.9.1",
+    "tsconfig-paths": "^4.2.0",
     "typescript": "^5.3.2"
   }
 }
