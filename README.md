@@ -10,3 +10,9 @@ Site: https://adventofcode.com
 use `npm start dev`
 
 added linter for bonus point
+
+## to copy
+
+```sh
+templatify.sh
+```

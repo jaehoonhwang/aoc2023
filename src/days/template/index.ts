@@ -6,7 +6,7 @@ export const day = "_N_";
 const problemInputs = ReadFileProblem(day);
 const sampleInputs = ReadFileSample(day);
 
-export function SolveDay_N_() {
+export function SolveDay_NAME_() {
   console.log("it's day _N_");
 
   solvePartOne(problemInputs); // Solved it.
