@@ -2,8 +2,8 @@
 
 set -e
 
-day=3
-dayName="Three"
+day=4
+dayName="Four"
 
 mkdir -p src/days/$day
 cp -r src/template/. src/days/$day/
