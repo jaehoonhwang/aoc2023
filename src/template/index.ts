@@ -9,8 +9,8 @@ const sampleInputs = ReadFileSample(day);
 export function SolveDay_NAME_() {
   console.log("it's day _N_");
 
-  solvePartOne(problemInputs);
-  solvePartTwo(sampleInputs);
+  console.log(solvePartOne(problemInputs));
+  console.log(solvePartTwo(sampleInputs));
 }
 
 function solvePartOne(inputs: string[]) { }
